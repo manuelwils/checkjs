@@ -1,10 +1,7 @@
 /**
 * check.js is a public Library.
 * @author: Emmanuel Godswill - (Ryan Lincoln);
-* @version: 0.0.1;
-* Last Updated: 29/09/2020;
-* Last Updated By: Emmanuel Godswill;
-* Desc: Check.js is a lightweight Form validation library for quick development of frontend applications;
+* @version: 1.0.0;
 * Usage: Include script at the bottom of webpage just before closing body tag;
 */
 var check;
