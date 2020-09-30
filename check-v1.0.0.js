@@ -4,7 +4,7 @@
 * @version: 1.0.0;
 * Usage: Include script at the bottom of webpage just before closing body tag;
 */
-var check;
+var check, exports = {};
 !(function () {
     "use strict";
     var n;
