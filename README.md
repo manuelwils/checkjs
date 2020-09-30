@@ -37,7 +37,7 @@ check.config({
 })
 ```
 the config file helps render errors when the form field details provided is invalid,
-``
+```
 var email = document.querySelector('.email');
 var password = document.querySelector('.password')
 var phone = document.querySelector('.phone')
