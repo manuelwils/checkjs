@@ -42,7 +42,7 @@ var email = document.querySelector('.email');
 var password = document.querySelector('.password')
 var phone = document.querySelector('.phone')
 
-//validate a single item
+//validate a single item.. also have .validatePassword(password), .validateNumber(phone)
 if(check.validateEmail(email)){
   //submit your form 
 }
