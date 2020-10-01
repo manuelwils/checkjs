@@ -49,7 +49,7 @@ if(check.validateEmail(email)){
 //validate everything
 let validEmail = check.validateEmail(email)
 let validNumber = check.validateNumber(phone)
-let validPassword = check.validateEmail(password)
+let validPassword = check.validatePassword(password)
 
 if(check.validateAll(validEmail, validPassword, validNumber)){
   //submit your form
