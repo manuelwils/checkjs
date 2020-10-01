@@ -21,8 +21,8 @@ Include script at the bottom of your webpage before the closing body tag
         </div>
         <div class="form-group">
           <label>password</label>
-          <input type="password" name="email" class="password">
-          <small id="email-error"></small>
+          <input type="password" name="password" class="password">
+          <small id="password-error"></small>
         </div>
 </form>
 ```
