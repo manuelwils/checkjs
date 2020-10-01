@@ -2,12 +2,11 @@
 check.js is a form validation library which helps for quick assembling of frontend applications
 
 # Usage
-Include script at the bottom of your webpage before the cloasing body tag
+Include script at the bottom of your webpage before the closing body tag
 
 # Code Sample
 
 ```
-<form>
 <form class="form" action="/register" method="POST">
     <fieldset>
         <div class="form-group">
