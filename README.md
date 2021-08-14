@@ -37,9 +37,9 @@ check.config({
 ```
 the config file helps render errors when the form field details provided is invalid,
 ```
-let email = document.querySelector('.email');
-let password = document.querySelector('.password')
-let phone = document.querySelector('.phone')
+let email = document.querySelector('#email');
+let password = document.querySelector('#password')
+let phone = document.querySelector('#phone')
 
 //validate a single item.. also have .validatePassword(password), .validateNumber(phone)
 if(check.validateEmail(email)){
