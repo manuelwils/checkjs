@@ -6,7 +6,7 @@ Include script at the bottom of your webpage before the closing body tag
 
 # Code Sample
 
-```
+```html
 <form class="form" action="/register" method="POST">
     <fieldset>
         <div class="form-group">
@@ -28,7 +28,7 @@ Include script at the bottom of your webpage before the closing body tag
 ```
 
 first add a script for config file anywhere in your webpage
-```
+```js
 check.config({
   emailError: '#email-error',
   passwordError: '#password-error',
@@ -36,7 +36,7 @@ check.config({
 })
 ```
 the config file helps render errors when the form field details provided is invalid,
-```
+```js
 let email = document.querySelector('#email');
 let password = document.querySelector('#password')
 let phone = document.querySelector('#phone')
